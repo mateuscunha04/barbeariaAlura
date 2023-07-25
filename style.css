@@ -1,12 +1,32 @@
 p {
     font-size: 22px;
+    margin-top: 22px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 h1 {
     font-size: 44px;
+    color: black;
 }
 
 * {
     font-family: 'Pacifico', cursive;
     text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+strong {
+    color: orange;
+}
+
+nav {
+    background-color: gray;
+    padding: 22px;
+}
+
+body {
+    background-color: rgb(30, 30, 30);
 }
