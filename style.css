@@ -7,7 +7,7 @@ p {
 
 h1 {
     font-size: 44px;
-    color: black;
+    color: darkcyan;
 }
 
 * {
@@ -19,14 +19,19 @@ h1 {
 }
 
 strong {
-    color: orange;
+    color: lightskyblue;
 }
 
 nav {
-    background-color: gray;
+    background-color: rgb(200, 200, 200);
     padding: 22px;
 }
 
 body {
     background-color: rgb(30, 30, 30);
+}
+
+img {
+    margin: 40px;
+    border-radius: 50%;
 }
