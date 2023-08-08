@@ -10,6 +10,11 @@ h1 {
     color: darkcyan;
 }
 
+h2 {
+    font-size: 33px;
+    font-weight: 700;
+}
+
 * {
     font-family: 'Pacifico', cursive;
     text-align: center;
@@ -31,7 +36,28 @@ body {
     background-color: rgb(30, 30, 30);
 }
 
-img {
+.logo {
     margin: 40px;
     border-radius: 50%;
+    border: 9px solid grey;
+}
+
+.banner {
+    width: 50%;
+}
+
+#bbox {
+    width: 100%;
+    padding: 0;
+    background-color: #545454;
+    border-bottom: 4px rgb(200, 200, 200) dashed;
+}
+
+.banner,
+#bbox {
+    height: 28.125%;
+}
+
+ul {
+    font-size: 22px;
 }
